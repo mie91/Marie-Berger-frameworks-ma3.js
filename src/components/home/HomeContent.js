@@ -3,7 +3,7 @@ import React from "react";
 function HomeContent ({children}){
     return (
 
-        <div className="card">{children}</div>
+        <div className="row">{children}</div>
     );
 }
 

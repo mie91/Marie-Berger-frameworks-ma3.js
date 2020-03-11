@@ -18,7 +18,7 @@ import LoginForm from "../login/LoginForm";
 function Layout() {
     return (
         <Router>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar bg="info" variant="dark" expand="lg">
                 <NavLink to="/" exact>
                     <Navbar.Brand>Module Assignment III</Navbar.Brand>
                 </NavLink>
