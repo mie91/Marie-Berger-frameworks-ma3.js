@@ -17,3 +17,7 @@ code {
   padding: 20px;
   margin-top: 20px;
 }
+
+.alert {
+  color:red;
+}
