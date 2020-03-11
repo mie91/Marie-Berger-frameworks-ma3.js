@@ -19,5 +19,11 @@ code {
 }
 
 .alert {
-  color:red;
+  margin-top: 5px;
+  padding: 5px;
+  color: red;
+}
+
+.theForm {
+  margin-top: 20px;
 }

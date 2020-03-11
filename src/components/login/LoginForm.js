@@ -25,7 +25,7 @@ function LoginForm() {
         }
 
         return (
-            <Form onSubmit={handleSubmit(onSubmit)}>
+            <Form className="theForm" onSubmit={handleSubmit(onSubmit)}>
                 <Form.Group>
                     <Form.Label>Username</Form.Label>
                     <Form.Control name ="username" placeholder ="Username" ref={register}/>
@@ -38,7 +38,7 @@ function LoginForm() {
                     {errors.password && <ErrorMessage>{errors.password.message}</ErrorMessage>}
                 </Form.Group>
 
-                <Button type="submit">Enter</Button>
+                <Button className= "btn-info" type="submit">Enter</Button>
             </Form>
         );
 }
